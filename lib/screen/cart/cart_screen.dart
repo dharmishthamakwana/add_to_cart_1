@@ -66,8 +66,7 @@ class _CartscreenState extends State<Cartscreen> {
                               ProductModel p1 = ProductModel(
                                   img: productProvider!.productData[index].img,
                                   price: productProvider!
-                                          .productData[index].price! /
-                                      2,
+                                          .productData[index].price! ,
                                   name:
                                       productProvider!.productData[index].name,
                                   q: productProvider!.productData[index].q! -
